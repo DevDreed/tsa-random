@@ -1,0 +1,23 @@
+#arrow {
+  width  : 500px;
+  height : 500px;
+}
+
+.left-image {
+  margin: 0 auto;
+  height            : 400px;
+  background-image  : url("http://aether.sdsu.edu/arrow%202-black.png");
+  background-repeat : no-repeat;
+  background-size   : contain;
+  transform         : rotate(-540deg);
+  transition: transform 2s;
+}
+
+.right-image {
+  margin: 0 auto;
+  height            : 400px;
+  background-image  : url("http://aether.sdsu.edu/arrow%202-black.png");
+  background-repeat : no-repeat;
+  background-size   : contain;
+  transition: transform 2s;
+}
